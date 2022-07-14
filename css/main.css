@@ -6,7 +6,7 @@
   margin: 0;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 550px) {
   .homeWrapper {
     height: 100%;
     overflow: hidden;
@@ -52,6 +52,30 @@
   }
   #contentInfoTarget .contentPrice p {
     margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  #contentWrapperTarget {
+    width: 90%;
+  }
+  .contentPrice {
+    margin-bottom: 1rem;
+  }
+  .contentPrice p {
+    margin-right: -20px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #contentWrapperTarget {
+    width: 90%;
+  }
+  .contentPrice {
+    margin-bottom: 1rem;
+    margin-left: 0;
+  }
+  .contentPrice p {
+    margin-right: -20px;
+    margin-left: 0;
   }
 }
 .homeWrapper {
